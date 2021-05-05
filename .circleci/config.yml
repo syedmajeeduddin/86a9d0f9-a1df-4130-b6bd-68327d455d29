@@ -10,3 +10,8 @@
      steps:
        - checkout
        - run: dotnet build
+
+   test:
+    steps:
+       - checkout
+       - run: dotnet test Sequence_TestCases
