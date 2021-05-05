@@ -10,4 +10,4 @@
      steps:
        - checkout
        - run: dotnet build  
-       - run: dotnet test ~/Sequence_TestCases.csproj
+       - run: dotnet test Sequence_TestCases/Sequence_TestCases.csproj
