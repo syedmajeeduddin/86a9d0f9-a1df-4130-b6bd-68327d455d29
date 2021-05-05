@@ -11,3 +11,5 @@
        - checkout
        - run: dotnet build  
        - run: dotnet test Sequence_TestCases/Sequence_TestCases.csproj
+       - store_test_results:
+          path: /Sequence_TestCases/test-reports
