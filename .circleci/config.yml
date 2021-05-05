@@ -13,3 +13,4 @@
        - run: dotnet test Sequence_TestCases/Sequence_TestCases.csproj
        - store_test_results:
           path: /tmp/test-reports
+                  -store_artifacts:true
